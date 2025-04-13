@@ -19,7 +19,8 @@ for imports, executables, and even the built-in test runner.
   React.
 - Only type annotations are supported. TypeScript features that generate code
   are unsupported: enums, namespaces, and constructor parameter props, will all
-  fail to interpret.
+  fail to interpret. Pass the [--experimental-transform-types] flag to enable
+  these features.
 - Differing import extensions. Node.js requires .ts for TypeScript imports and
   .js or no extension for everything else.
 - Most projects will require a massive TypeScript config (but type-stripping
@@ -28,6 +29,7 @@ for imports, executables, and even the built-in test runner.
 [v22.6.0]:
   https://github.com/nodejs/node/blob/v22.6.0/doc/changelogs/CHANGELOG_V22.md#experimental-typescript-support-via-strip-types
 [type-stripping]: https://nodejs.org/en/learn/typescript/run-natively
+[--experimental-transform-types]: https://nodejs.org/en/blog/release/v22.7.0#experimental-transform-types-support
 
 ## Encapsulate Interpreter with a Shebang
 
