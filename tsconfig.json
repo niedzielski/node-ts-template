@@ -1,5 +1,5 @@
 {
-  // Only build references.
+  // Build all references.
   "files": [],
   "references": [
     {"path": "./src/client"},

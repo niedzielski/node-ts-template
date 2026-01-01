@@ -6,11 +6,17 @@
 
     "noEmit": true, // tsc is only used for type-checking.
 
-    "types": ["node"],
-
-    "tsBuildInfoFile": "../../dist/test/tsconfig.tsbuildinfo"
+    "types": ["node"]
   },
-  "include": ["**/*", "../**/*.test.ts"],
+  "include": [
+    "${configDir}/",
+    "${configDir}/**/*.json",
+    "../../**/*.test.ts",
+    "../../**/*.test*.json",
+    "../../**/test/",
+    "../../**/test/**/*.json"
+  ],
+  "exclude": ["../../node_modules/", "../../dist/"],
   "references": [
     {"path": "../client"},
     {"path": "../server"},

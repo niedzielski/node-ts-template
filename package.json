@@ -2,8 +2,8 @@
   "author": "Stephen Niedzielski <stephen@oidoid.com> (https://oidoid.com)",
   "description": "TypeScript in Node.js template.",
   "devDependencies": {
-    "@types/node": "22.14.1",
-    "typescript": "5.8.3"
+    "@types/node": "22.6.2",
+    "typescript": "5.9.3"
   },
   "engines": {
     "node": ">=22.6"
@@ -12,6 +12,7 @@
   "name": "node-ts-template",
   "private": true,
   "scripts": {
+    "clean": "rm -rf dist/",
     "dev": "npm run hello -- --goodbye& sleep 5& wait",
     "dev:with-args": "sh -c 'npm run hello& sleep \"${@:-0}\"& wait' --",
     "hello": "tools/hello.ts --name=foo",
