@@ -5,5 +5,5 @@
     "types": ["node"],
     "customConditions": ["server"]
   },
-  "references": [{"path": "../shared"}]
+  "references": [{"path": "../shared/"}]
 }

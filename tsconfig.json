@@ -2,10 +2,10 @@
   // Build all references.
   "files": [],
   "references": [
-    {"path": "./src/client"},
-    {"path": "./src/server"},
-    {"path": "./src/shared"},
-    {"path": "./src/test"},
-    {"path": "./tools"}
+    {"path": "./src/client/"},
+    {"path": "./src/server/"},
+    {"path": "./src/shared/"},
+    {"path": "./src/test/"},
+    {"path": "./tools/"}
   ]
 }

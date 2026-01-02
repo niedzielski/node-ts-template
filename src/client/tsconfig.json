@@ -5,5 +5,5 @@
     "lib": ["DOM", "ES2023"],
     "customConditions": ["browser"]
   },
-  "references": [{"path": "../shared"}]
+  "references": [{"path": "../shared/"}]
 }

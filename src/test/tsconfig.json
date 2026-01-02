@@ -18,8 +18,9 @@
   ],
   "exclude": ["../../node_modules/", "../../dist/"],
   "references": [
-    {"path": "../client"},
-    {"path": "../server"},
-    {"path": "../shared"}
+    {"path": "../client/"},
+    {"path": "../server/"},
+    {"path": "../shared/"},
+    {"path": "../../tools/"}
   ]
 }
